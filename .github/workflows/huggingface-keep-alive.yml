@@ -2,7 +2,7 @@ name: Huggingface Keep-Alive
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 jobs:
